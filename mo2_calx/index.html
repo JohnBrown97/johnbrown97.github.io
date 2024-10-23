@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calx Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Mortal Online 2 - Calx Calculator</h1>
+
+        <div class="input-group">
+            <label for="calxCost">Calx Stack Cost (g.s.c):</label>
+            <input type="text" id="calxCost" value="0.0.0">
+            <label>
+                <input type="checkbox" id="includeCalx" checked>
+                Include Cost
+            </label>
+        </div>
+
+        <h2>Material Prices</h2>
+        <div id="materialInputs"></div>
+
+        <button id="calculateButton">Calculate Profit/Loss</button>
+
+        <h2 id="resultLabel"></h2>
+        <pre id="detailedResult"></pre>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
